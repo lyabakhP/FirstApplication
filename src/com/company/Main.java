@@ -11,6 +11,7 @@ public class Main {
         System.out.println();
 
         ArrayService.reverse(num);
+        // return [I@1540e19d
         System.out.println(num);
 
     }
