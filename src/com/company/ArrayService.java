@@ -8,8 +8,11 @@ package com.company;
 
 public class ArrayService {
 
-    public void reverse () {
+    public int[]  reverse (int[] arr) {
 
+        //method body
+
+        return arr;
     }
 
 }
