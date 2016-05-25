@@ -10,7 +10,7 @@ package com.company;
 
 public class ArrayService {
 
-    public static int[] reverse (int[] arr) {
+    public int[] reverse (int[] arr) {
 
        for(int i = 0,j = arr.length - 1; i<arr.length; i++,j--) {
 
@@ -24,6 +24,12 @@ public class ArrayService {
            }
        }
         return arr;
+    }
+
+    public void print (int[] arr) {
+        for (int anArr : arr) {
+            System.out.println(anArr);
+        }
     }
 
 }
