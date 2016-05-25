@@ -12,8 +12,11 @@ public class ArrayServiceTest {
     @Test
     public void reversNew() throws Exception {
 ArrayService arrayService = new ArrayService();
-        arrayService.reversNew(new int [] {1,2,3,4,5});
-        //Assert.assertArrayEquals(int[] expecteds, int[] actuals);
+        int [] arr = {1,2,3,4,5};
+        arrayService.reversNew(arr)
+        int [] expected = {5,4,3,2,1};
+        int [] actual = new int[expected.length];
+        Assert.assertArrayEquals(expected,actual);
     }
 
 }
