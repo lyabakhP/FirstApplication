@@ -28,8 +28,9 @@ public class ArrayService {
 
     public void print (int[] arr) {
         for (int anArr : arr) {
-            System.out.println(anArr);
+            System.out.print(anArr);
         }
+        System.out.println("");
     }
 
 }
