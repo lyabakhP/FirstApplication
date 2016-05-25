@@ -26,6 +26,15 @@ public class ArrayService {
         return arr;
     }
 
+    public int[] reversNew (int[] arr) {
+        for (int i = 0; i < arr.length/2; i++) {
+            int t = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = t;
+        }
+        return arr;
+    }
+
     public void print (int[] arr) {
         for (int anArr : arr) {
             System.out.print(anArr);
